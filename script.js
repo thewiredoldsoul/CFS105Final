@@ -17,16 +17,18 @@ window.onload = function() {
     numberArray.push ("age", "telephonenumber");
     
     for(i = 0; i < numberArray.length; i++) {
-        if(numberArray[i] <= 100) {
+        if(numberArray[i] <= "age:" +i) {
             document.getElementById("age").innerHTML = userInput;
             
         }
         }
-        [else (numberArray[i] >= 100),{
+        else (numberArray[i] >= "telephonenumber: " + userInput),{
             document.getElementById("telephonenumber").innerHTML = telephonenumber;
 
         return;
-            console.log;
+            console.log(age);
+            console.log(address);
+
 
         }
     ]
