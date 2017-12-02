@@ -18,17 +18,18 @@ window.onload = function() {
     
     for(i = 0; i < numberArray.length; i++) {
         if(numberArray[i] <= 100) {
-            document.getElementById("age").innerHTML = age;
+            document.getElementById("age").innerHTML = userInput;
             
         }
         }
-        else(numberArray[i] >= 100);{
+        [else (numberArray[i] >= 100),{
             document.getElementById("telephonenumber").innerHTML = telephonenumber;
 
         return;
+            console.log;
 
         }
-        }
+    ]
     }
 
     // for (numberArray;{
@@ -39,4 +40,4 @@ window.onload = function() {
     //     }
     
 
-
+}
