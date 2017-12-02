@@ -16,12 +16,17 @@ window.onload = function() {
     
     numberArray.push ("age", "telephonenumber");
     
-    for(numberArray = 0; i < 10; i++) {
-        if(i < 100) {
-            return(age);
+    for(i = 0; i < numberArray.length; i++) {
+        if(numberArray[i] <= 100) {
+            document.getElementById("age").innerHTML = age;
+            
         }
-        else(i > 100);
-            return(address);
+        }
+        else(numberArray[i] >= 100);{
+            document.getElementById("telephonenumber").innerHTML = telephonenumber;
+
+        return;
+
         }
         }
     }
