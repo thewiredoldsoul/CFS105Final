@@ -5,9 +5,9 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Let's make an ID Card!</h1>
+    <h1 class="Head">Let's make an ID Card!</h1>
 
-
+<div class="container">
 <div id="userentry">
 
     <h4>First Name:</h4>
@@ -26,19 +26,22 @@
     <input type="text" placeholder="Address" id="address"></input><br>
 
     
-    <button onclick="idCard">Create my ID!</button>   
+    <button onclick="idCard()" type="submit"  >Create my ID!</button>   
 
 </div>
 
+
+
+
    <div id="idCard">
-       <!-- <img id="imgicon" src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg"> -->
+       <img id="imgicon" src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
        <p id="postFullName"></p>
        <p id="postAge"></p>
        <p id="postPhoneNumber"></p>
        <p id="postAddress"></p>
    </div>
 
-
+</div>
 
    <script src="script.js"></script>
 </body>

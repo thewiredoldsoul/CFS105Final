@@ -1,21 +1,33 @@
+body {
+    background-color:#178d99;
+}
+
+.Head {
+    display:block;
+    text-align: center;
+
+}
+
+
+/* #ffaacc */
+
+button {
+    align-self: center;
+}
+
 #imgicon {
     width: 90px;
     height: 90px;
     float: left;
  }
  
- idCard {
-    border: 5px solid black;
-    height: 14em;
-    width: 25em;
-}
-
+ 
 #userentry{
     float: center;
     height:300px;
     width:300px;
-    /* background-color:#27f305; */
-    position:absolute;
+    /* background-color:#178d99; */
+    /* position:absolute; */
     margin:auto;
     top:0;
     left:0;
@@ -23,17 +35,27 @@
     bottom:0;
     }
 
-h4{
-    /* float: center;
-    height:300px;
-    width:300px;
-    background-color:#27f305;
-    position:absolute;
-    margin:auto;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-     */
-    text-align: center;
+    #idCard {
+        border: 5px solid black;
+        height: 14em;
+        width: 25em;
+        background-color: #ffaacc;
+        /* position: relative; */
+        border-radius: 15% 15% 15% 15%;
+        margin: auto;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        /* float: bottom; */
+        /* vertical-align: center; */
+        margin-top: 200px;
+
+    }
+
+#postFullName    {
+    font-size: 24pt;
+    font-family: 'Franklin Gothic Medium';
+    
+
 }
