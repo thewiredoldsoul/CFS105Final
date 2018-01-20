@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Let's make an ID Badge!</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1 class="Head">Let's make an ID Card!</h1>
+
+<div class="container">
+<div id="userentry">
+
+    <h4>First Name:</h4>
+    <input type="text" placeholder="First Name" id="firstname"></input><br>
+    
+    <h4>Last Name:</h4>
+    <input type="text" placeholder="Last Name" id="lastname"></input><br>
+    
+    <h4>Age:</h4>
+    <input type="integer" placeholder="Age" id="age"></input><br>
+    
+    <h4>Telephone Number:</h4>
+    <input type="text" placeholder="Telephone Number" id="telephonenumber"></input><br>
+    
+    <h4>Address:</h4>
+    <input type="text" placeholder="Address" id="address"></input><br>
+
+    
+    <button onclick="idCard()" type="submit"  >Create my ID!</button>   
+
+</div>
+
+
+
+
+   <div id="idCard">
+       <img id="imgicon" src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+       <p id="postFullName"></p>
+       <p id="postAge"></p>
+       <p id="postPhoneNumber"></p>
+       <p id="postAddress"></p>
+   </div>
+
+</div>
+
+   <script src="script.js"></script>
+</body>
+</html>
